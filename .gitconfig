@@ -1,0 +1,7 @@
+[user]
+	name = Daniel Sauvé
+	email = megametres@users.noreply.github.com
+	signingkey = D75548B991C4BB7A
+[core]
+	editor = vim
+	pager = less -F -X

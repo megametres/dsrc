@@ -1,0 +1,72 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "extensions.ignoreRecommendations": false,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "rust-client.channel": "nightly",
+  "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+  "rust.clippy_preference": "on",
+  "rust.full_docs": true,
+  "rust.all_features": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "editor.fontFamily": "'Overpass', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "phase",
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showNull": false,
+  "breadcrumbs.showNumbers": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showStructs": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showVariables": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showArrays": false,
+  "outline.showVariables": false,
+  "code-runner.defaultLanguage": "rust",
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": false,
+    "**/node_modules/*/**": true,
+    "**/target/**": true
+  },
+  "gitlens.currentLine.dateFormat": "dddd, MMMM Do YYYY, h:mm:ss a",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.defaultDateFormat": "dddd, MMMM Do YYYY, h:mm:ss a",
+  "gitlens.defaultDateShortFormat": "YYYY MM DD",
+  "gitlens.statusBar.dateFormat": "YYYY MM DD",
+  "gitlens.blame.dateFormat": "dddd, MMMM Do YYYY, h:mm:ss a",
+  "emmet.triggerExpansionOnTab": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode_custom_css.imports": [
+    "file:///home/metres/developpement/vscode/custom.css"
+  ],
+  "vscode_custom_css.policy": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.ignoreMissingGitWarning": true,
+  "workbench.colorTheme": "BeardedTheme Black & Diamond",
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.sendKeybindingsToShell": true
+}
