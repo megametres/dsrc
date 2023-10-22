@@ -72,7 +72,7 @@ export ZSH="/home/metres/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(asdf docker docker-compose git rails ruby rust)
+plugins=(asdf docker docker-compose git rails ruby rust ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.codon/bin:$HOME/.cargo/bin:$PATH
 eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
-exec ssh-agent zsh
 
 alias ls="exa -alh"
 
