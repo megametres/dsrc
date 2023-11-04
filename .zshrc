@@ -113,3 +113,4 @@ eval "$(atuin init zsh --disable-up-arrow)"
 
 alias ls="exa -alh"
 
+export GIT_PAGER=cat git diff
